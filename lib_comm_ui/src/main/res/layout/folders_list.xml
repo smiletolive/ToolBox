@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?><!-- 文件浏览 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bitmap_listbg"
+    android:orientation="vertical">
+
+    <!-- 底部菜单 -->
+
+    <LinearLayout
+        android:id="@+id/listFooter"
+        android:layout_width="fill_parent"
+        android:layout_height="46dip"
+        android:layout_alignParentBottom="true"
+        android:background="#DD3B3B3B"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="3dp"
+            android:background="#9951A8F5" />
+
+        <LinearLayout
+            android:id="@+id/tabTop1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#993B3B3B"
+            android:orientation="horizontal"
+            android:paddingTop="4dp">
+
+            <Button
+                android:id="@+id/btnCancel"
+                android:layout_width="0dp"
+                android:layout_height="42dip"
+                android:layout_marginRight="3dip"
+                android:layout_weight="1"
+                android:text="取消"
+                android:textColor="#fff" />
+
+
+            <Button
+                android:id="@+id/btnOk"
+                android:layout_width="0dp"
+                android:layout_height="42dip"
+                android:layout_weight="1"
+                android:text="确认"
+                android:textColor="#fff" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- 主体内容 -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/listFooter"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/tabBtnGroup"
+            android:layout_width="fill_parent"
+            android:layout_height="44dip"
+            android:layout_alignParentTop="true">
+
+            <Button
+                android:id="@+id/btnReturn"
+                android:layout_width="48dp"
+                android:layout_height="42dp"
+                android:layout_alignParentLeft="true"
+                android:onClick="closeWindow" />
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_toRightOf="@id/btnReturn"
+                android:gravity="center_vertical"
+                android:paddingLeft="4dp"
+                android:text=" 选择文件夹"
+                android:textColor="#fff"
+                android:textSize="15dp" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="3dp"
+                android:layout_alignParentBottom="true"
+                android:background="#809130" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="快速浏览:" />
+
+            <Button
+                android:id="@+id/btnSDCard"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_margin="4dp"
+                android:onClick="onClickQuick"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:text="SD卡"
+                android:textSize="14dp" />
+
+            <Button
+                android:id="@+id/btnWeixin"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_margin="4dp"
+                android:onClick="onClickQuick"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:text="微信文件"
+                android:textSize="14dp" />
+
+            <Button
+                android:id="@+id/btnQq"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_margin="4dp"
+                android:onClick="onClickQuick"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:text="QQ文件"
+                android:textSize="14dp" />
+
+            <Button
+                android:id="@+id/btnTim"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_margin="4dp"
+                android:onClick="onClickQuick"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:text="TIM文件"
+                android:textSize="14dp" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/tabFileBrowser"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@id/tabBtnGroup"
+            android:padding="2dip">
+
+            <!-- 文件浏览 -->
+
+            <ListView
+                android:id="@+id/listFileBrowser"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@android:color/transparent"
+                android:cacheColorHint="@android:color/transparent"
+                android:drawSelectorOnTop="false"
+                android:fastScrollEnabled="true"
+                android:visibility="visible"></ListView>
+
+            <!-- 空内容 -->
+
+            <TextView
+                android:id="@+id/empty1_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="3dip"
+                android:gravity="center"
+                android:text="没有内容"
+                android:textSize="17dp"
+                android:visibility="gone" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

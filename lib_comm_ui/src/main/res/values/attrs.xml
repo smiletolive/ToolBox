@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 标题模板自定义属性 -->
+    <declare-styleable name="TitleView">
+        <!-- 标题文案 -->
+        <attr name="titleText" format="string"/>
+        <!--标题文案字体颜色-->
+        <attr name="titleTextColor" format="color"/>
+        <!--标题文案字体大小-->
+        <attr name="titleTextSize" format="dimension"/>
+        <!--显示标题，默认不显示-->
+        <attr name="titleShow" format="boolean"/>
+
+        <!-- 子标题文案 -->
+        <attr name="subTitleText" format="string"/>
+        <!--子标题文案字体颜色-->
+        <attr name="subTitleTextColor" format="color"/>
+        <!--子标题文案字体大小-->
+        <attr name="subTitleTextSize" format="dimension"/>
+
+        <!-- 左边视图的文字 -->
+        <attr name="leftText" format="string"/>
+        <!-- 左边视图的文字颜色 -->
+        <attr name="leftTextColor" format="color"/>
+        <!--左边视图的文字字体大小-->
+        <attr name="leftTextSize" format="dimension"/>
+        <!-- 左边视图的图标 -->
+        <attr name="leftViewIcon" format="reference"/>
+
+        <!-- 右侧视图的文字 -->
+        <attr name="titleViewRightText" format="string"/>
+        <!-- 右侧视图的文字颜色 -->
+        <attr name="titleViewRightTextColor" format="color"/>
+        <!--右侧视图的文字字体大小-->
+        <attr name="titleViewRightTextSize" format="dimension"/>
+        <!-- 右侧视图的图标 -->
+        <attr name="titleViewRightViewIcon" format="reference"/>
+        <!--显示右侧视图，默认不显示-->
+        <attr name="titleViewRightViewShow" format="boolean"/>
+
+        <!-- 标题栏背景 -->
+        <attr name="titleViewBg" format="reference"/>
+
+    </declare-styleable>
+
+</resources>

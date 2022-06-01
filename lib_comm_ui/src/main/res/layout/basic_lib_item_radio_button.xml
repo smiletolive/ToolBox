@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioButton xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/basic_lib_radio_button"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@null"
+    android:button="@null"
+    android:drawableLeft="@drawable/x_ic_round_selector"
+    android:drawablePadding="@dimen/basicLibDialogPadding"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:paddingLeft="@dimen/basicLibDialogPadding"
+    android:paddingRight="@dimen/basicLibDialogPadding"
+    android:textSize="12sp"
+    android:textColor="#444444"
+    android:text="最优"/>

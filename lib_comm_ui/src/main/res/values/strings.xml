@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="btn_confirm">确认</string>
+    <string name="switch_map_title">选择图层</string>
+    <string name="grade_smooth">流畅地图</string>
+    <string name="grade_hd">高清地图</string>
+    <string name="gotele_satellite">goTele卫星图（需开通VIP5）</string>
+    <string name="gotele_satellite_hybrid">goTele卫星图混合（需开通VIP5）</string>
+    <string name="gotele_vector">goTele矢量图（需开通VIP5）</string>
+    <string name="gotele_terrain">goTele地形图（需开通VIP5）</string>
+    <string name="baidu_vector">百度矢量图</string>
+    <string name="baidu_satellite">百度卫星图</string>
+    <string name="gaode_satellite">高德卫星图</string>
+    <string name="google_satellite">谷歌卫星图</string>
+    <string name="google_satellite_hybrid">谷歌卫星图混合</string>
+    <string name="google_vector">谷歌矢量图</string>
+    <string name="google_terrain">谷歌地形图</string>
+    <string name="tiandi_satellite">天地卫星图</string>
+    <string name="tiandi_vector">天地矢量图</string>
+    <string name="arcgis_satellite">ArcGis卫星图</string>
+    <string name="open_cycle">OpenCycleMap</string>
+    <string name="open_street">OpenStreetMap</string>
+    <string name="vip_not">当前图层需要开通VIP5</string>
+    <string name="map_title_vip">需开通会员VIP5、团队会员或超级会员</string>
+    <string name="map_title_normal">免费使用图层</string>
+    <string name="image_storage_per">读取照片失败，请检查是否开启“文件存储”权限</string>
+    <string name="image_storage_per_30">读取照片失败，请检查是否开启“文件存储”和“所有文件访问权限”</string>
+</resources>

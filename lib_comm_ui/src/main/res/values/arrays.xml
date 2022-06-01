@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="map_types">
+        <item>goTele卫星图</item>
+        <item>goTele卫星图混合</item>
+        <item>goTele矢量图</item>
+        <item>goTele地形图</item>
+        <item>百度矢量图</item>
+        <item>百度卫星图</item>
+        <item>高德卫星图</item>
+<!--        <item>谷歌卫星图</item>-->
+<!--        <item>谷歌卫星图混合</item>-->
+<!--        <item>谷歌矢量图</item>-->
+<!--        <item>谷歌地形图</item>-->
+        <item>天地矢量图</item>
+        <item>天地卫星图</item>
+        <item>ArcGis卫星图</item>
+        <item>OpenCycleMap</item>
+        <item>OpenStreetMap</item>
+    </array>
+    <array name="map_types_mapbox">
+        <item>MapBoxSatellite</item>
+        <item>MapBoxSatelliteStreet</item>
+        <item>MapBoxMap</item>
+        <item>MapBoxOutdoor</item>
+    </array>
+    <array name="map_types_gotele">
+        <item>GoteleSatelliteNoHybrid</item>
+        <item>GoteleSatellite</item>
+        <item>GoteleMap</item>
+        <item>GoteleTerrain</item>
+    </array>
+    <array name="map_type_key">
+        <item>Baidu</item>
+        <item>BaiduSatellite</item>
+        <item>GaodeSatellite</item>
+<!--        <item>GoogleSatellite</item>-->
+<!--        <item>GoogleSatelliteNoHybrid</item>-->
+<!--        <item>GoogleMap</item>-->
+<!--        <item>GoogleTerrain</item>-->
+        <item>TiandiMap</item>
+        <item>TiandiSatellite</item>
+        <item>ArcGisSatellite</item>
+        <item>CycleMap</item>
+        <item>Mapnik</item>
+    </array>
+</resources>

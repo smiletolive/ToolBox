@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--蒙版颜色-->
+    <color name="basic_lib_color_mask">#66000000</color>
+    <color name="basic_lib_color_title">#FF272829</color>
+    <color name="basic_lib_color_status_bar">#ffffff</color>
+    <color name="lib_ling_bg">#EEEEEE</color>
+    <color name="map_title_box">#E0A85A</color>
+    <color name="color_ffffff_pressed">#D8D8D8</color>
+    <color name="color_ffffff">#ffffff</color>
+    <color name="dialog_btn_confirm">#444444</color>
+    <color name="dialog_btn_cancel">#888888</color>
+    <color name="map_line">#f3f3f3</color>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--对话框外边距-->
+    <dimen name="basicLibDialogMargin">34dp</dimen>
+    <!--对话框内边距-->
+    <dimen name="basicLibDialogPadding">16dp</dimen>
+    <!--对话框元素间间距-->
+    <dimen name="basicLibDialogItemMargin">10dp</dimen>
+    <!--对话框内容的宽度-->
+    <dimen name="basicLibDialogContentWidth">260dp</dimen>
+    <!--对话框内容的高度-->
+    <dimen name="basicLibDialogContentHeight">80dp</dimen>
+    <!--对话框标题字体大小-->
+    <dimen name="basicLibDialogTitleSize">19sp</dimen>
+    <!--对话框内容字体大小-->
+    <dimen name="basicLibDialogTextSize">16sp</dimen>
+
+
+    <!--label布局左边文本字体大小-->
+    <dimen name="basicLibLabelLeftTextSize">16sp</dimen>
+    <!--label布局左边文本字体大小-->
+    <dimen name="basicLibLabelRightTextSize">14sp</dimen>
+
+    <dimen name="title_bar_height">56dp</dimen>
+    <dimen name="title_size">18sp</dimen>
+
+</resources>

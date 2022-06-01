@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/basic_lib_bottom_dialog_bg"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_title"
+        style="@style/basicLibDialogSimpleListItemTextStyle"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <View
+        android:id="@+id/line_bottom_split"
+        android:layout_width="match_parent"
+        android:layout_height="12dp"
+        android:background="#66000000"/>
+
+    <TextView
+        android:id="@+id/tv_bottom"
+        style="@style/basicLibDialogSimpleListItemTextStyle"
+        android:textColor="#444444"/>
+
+</LinearLayout>

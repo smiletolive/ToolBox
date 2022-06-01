@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- list列表项交替颜色 -->
+    <color name="comm_list_alternate_1">#45FFFFFF</color>
+    <color name="comm_list_alternate_2">#85fffffc</color>
+
+    <color name="color_bottom_sheet_bg">#C7C7CC</color>
+    <color name="color_bottom_sheet_item_text_color">#007AFF</color>
+    <color name="color_bottom_sheet_item_text_color_pressed">#55007AFF</color>
+    <color name="color_bottom_sheet_divier_line">#8F848488</color>
+    <dimen name="divier_line_width">1px</dimen>
+    <color name="divier_line_color">#dddddd</color>
+</resources>
