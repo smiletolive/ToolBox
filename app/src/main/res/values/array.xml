@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pwd_type">
+        <item>储蓄卡</item>
+        <item>信用卡</item>
+        <item>其他账号</item>
+    </string-array>
+</resources>

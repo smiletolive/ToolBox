@@ -22,6 +22,9 @@ public interface PasswordDao {
     @Query("SELECT * FROM " + Password.TABLE_NAME)
     List<Password> selectAll();
 
+    @Query("SELECT * FROM " + Password.TABLE_NAME + " WHERE " + Password.COLUMN_ID + " = :id")
+    Password selectById(long id);
+
     @Query("DELETE FROM " + Password.TABLE_NAME + " WHERE " + Password.COLUMN_ID + " = :id")
     int deleteById(long id);
 }
