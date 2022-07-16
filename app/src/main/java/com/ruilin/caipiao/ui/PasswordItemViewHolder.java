@@ -29,7 +29,16 @@ public class PasswordItemViewHolder extends ContentBaseViewHolder<BusinessBaseAd
 
     @Override
     public void onBindContentView(int position, Password data) {
+        tvName.setText(data.getName());
+        tvPwd.setText(data.getPassword());
 
+        itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (listener != null)
+                    listener.onCallback(position, data);
+            }
+        });
     }
 
     @Override

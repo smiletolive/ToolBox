@@ -98,6 +98,7 @@ public class PasswordFragment extends XBaseFragment {
                 mPassword.setBankNumber(bankNumber);
                 mPassword.setBankDate(bankDate);
                 InfoDatabase.getInstance().savePassword(mPassword);
+                getActivity().finish();
                 break;
         }
     }
